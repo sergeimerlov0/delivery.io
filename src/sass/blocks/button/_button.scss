@@ -1,0 +1,18 @@
+button {
+    background: $main-color;
+    width: 160px;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+    font-size: 12px;
+    line-height: 22px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-align: center;
+    transform: all .07s;
+    &:hover {
+        color: $main-color;
+        background: #ffffff;
+    }
+}
