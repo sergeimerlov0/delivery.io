@@ -1,0 +1,30 @@
+.globalopt {
+    min-height: 591px;
+    background-color: #f3f3f3;
+    padding: 57px 0 48px 0;
+    &__block {
+        display: grid;
+        grid-template-columns: 58px 447px 58px 447px;
+        justify-content: center;
+        margin-top: 30px;
+        column-gap: 30px;
+        row-gap: 40px;
+        &_img {
+            width: 58px;
+            height: 53px;
+        }
+        &_subtitle {
+            font-size: 16px;
+            line-height: 22px;
+            color: $main-color;
+            font-weight: 700;
+        }
+        &_text {
+            margin-top: 10px;
+            font-size: 14px;
+            line-height: 22px;
+            color: #000;
+            font-weight: 300;
+        }
+    }
+}

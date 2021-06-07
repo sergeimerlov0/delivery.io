@@ -13,6 +13,29 @@
     width: 1140px;
     margin: 0 auto;
 }
+.title {
+    font-size: 26px;
+    line-height: 23px;
+    color: #2e2e2e;
+    font-weight: 700;
+    text-align: center;
+}
+.dividr {
+    width: 148px;
+    height: 1px;
+    background: $main-color;
+    margin: 20px auto 0 auto;
+}
+.dsr{
+    font-size: 21px;
+    line-height: 24px;
+    color: #2e2e2e;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 14px;
+}
 
 @import 'blocks/button/button';
 @import 'blocks/header/header';
+@import 'blocks/globalopt/globalopt';
+@import 'blocks/prezentacia/prezentacia';
