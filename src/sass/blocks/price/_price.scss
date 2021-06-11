@@ -1,0 +1,128 @@
+.price {
+    padding: 53px 0 58px 0;
+    min-height: 1026px;
+    &__blocks {
+        margin-top: 30px;
+        display: grid;
+        grid-template: 355px / repeat(4, 265px);
+        column-gap: 28px;
+    }
+    &__block {
+        background-color: #ffffff;
+        border: 1px solid #e9e9e9;
+    }
+    &__subtitle {
+        height: 61px;
+        background-color: #25333c;
+        &_hed {
+            color: #ffffff;
+            font-size: 16px;
+            line-height: 23px;
+            font-weight: 700;
+            text-align: center;
+            padding-top: 21px;
+        }
+    }
+    &__img {
+        margin-top: 16px;
+        text-align: center;
+    }
+    &__title {
+        font-size: 14px;
+        line-height: 23px;
+        color: #2e2e2e;
+        font-weight: 300;
+        text-align: center;
+    }
+    &__str {
+        font-size: 20px;
+        line-height: 30px;
+        color: $main-color;
+        font-weight: 500;
+        text-align: center;
+    }
+    &__text {
+        font-size: 14px;
+        line-height: 20px;
+        color: #2e2e2e;
+        font-weight: 300;
+        text-align: center;
+        padding-right: 18px;
+        padding-left: 18px;
+    }
+    &__btn {
+        margin-top: 25px;
+        text-align: center;
+        button{
+            &:hover {
+                border:1px solid $main-color;
+            }
+        }
+        
+    }
+}
+.form {
+    position: relative;
+    padding: 56px 0;
+    &__title {
+        font-size: 28px;
+        line-height: 23px;
+        color: #3a3a3a;
+        font-weight: 500;
+        text-align: center;
+    }
+    &__blocks {
+        display: flex;
+        justify-content: center;
+        border: 1px solid rgba(0,0,0,0.21);
+        padding: 65px;
+    }
+    &__contacts {
+        position: relative;
+        margin-top: 75px;
+    }
+    &__img {
+        position: absolute;
+        width: 103px;
+        height: 103px;
+        border-radius: 100%;
+        border: 1px solid $main-color;
+        top: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: white;
+        img {
+            display: block;
+            margin: 16px auto;
+        }
+    }
+    input {
+        width: 268px;
+        height: 45px;
+        border: 1px solid rgba(0,0,0,0.21);
+        border-radius: 30px;
+        margin: 6px;
+        font-size: 13px;
+        line-height: 24px;
+        color: #101010;
+        font-weight: 300;
+        padding-left: 28px;
+        &:focus {
+            outline:none;
+        }
+        
+    }
+    &__btn {
+        position: absolute;
+        top: 166px;
+        left: 50%;
+        transform: translateX(-50%);
+        button{
+            width: 180px;
+            height: 45px;
+            &:hover {
+                border:1px solid $main-color;
+            }
+        }
+    }
+}
