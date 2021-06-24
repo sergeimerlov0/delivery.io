@@ -1,7 +1,9 @@
 .header {
     min-height: 742px;
+    width: 100%;
     background: url('../../../img/Layer\ 6.png') center (center/cover) no-repeat;
     padding-top: 23px;
+    padding-bottom: 92px;
     .menu {
         display: flex;
         justify-content: space-between;
@@ -116,7 +118,7 @@
     }
     .menu_btn {
         display: block;
-        margin: 39px auto 82px auto;
+        margin: 39px auto 0 auto;
         width: 230px;
         height: 57px;
         font-size: 15px;

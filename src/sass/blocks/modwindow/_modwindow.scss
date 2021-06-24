@@ -1,0 +1,61 @@
+.modwindow {
+    min-height: 439px;
+    background: url('../../../img/Rectangle\ 1\ copy.png')center (center/cover) no-repeat;
+    padding: 62px 0 104px 0;
+    .form {
+        width: 896px;
+        min-height: 342px;
+        margin: 0 auto;
+        &__question {
+            width: 896px;
+            height: 68px;
+            background-color: #25333c;
+            padding-top: 10px;
+            &_title {
+                font-size: 19px;
+                color: #ffffff;
+                font-weight: 700;
+                text-align: center;
+            }
+            &_subtitle {
+                font-size: 14px;
+                color: #ffffff;
+                font-weight: 400;
+                text-align: center;
+            }
+        }
+        &__forms {
+            width: 896px;
+            height: 297px;
+            background: rgba(255, 255, 255, 0.5);
+            &_bl {
+                padding-top: 18px;
+                border: none;
+                padding-bottom: 0;
+            }
+        textarea {
+            display: block;
+            margin: 0 auto;
+            overflow: auto;
+            resize: vertical;
+            width: 755px;
+            border-radius: 10px;
+            height: 72px;
+            resize: none;
+            outline: none;
+            font-size: 13px;
+            line-height: 51px;
+            color: #616467;
+            font-weight: 300;
+            padding-left: 26px;
+        }
+        }
+        &__btn1 {
+            width: 180px;
+            margin: 17px auto 0 auto;
+            button {
+                width: 100%;
+            }
+        }
+    }
+}

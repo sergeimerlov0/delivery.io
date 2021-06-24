@@ -1,0 +1,52 @@
+footer {
+    min-height: 201px;
+    background-color: #25333c;
+    .footblock {
+        padding-top: 25px;
+        display: flex;
+        justify-content: space-between;
+        &__title {
+            font-size: 16px;
+            line-height: 20px;
+            color: #ffffff;
+            font-weight: 700;
+            margin-top: 40px;
+        }
+        &__info {
+            display: flex;
+            flex-direction: column;
+            margin-top: 25px;
+            &_quech {
+                font-size: 14px;
+                line-height: 24px;
+                color: #ffffff;
+                font-weight: 300;
+                text-align: right;
+                text-decoration: none;
+                cursor: pointer;
+                &:hover {
+                    color: $main-color;
+                }
+            }
+            &_phone {
+                font-size: 19px;
+                line-height: 24px;
+                color: #ffffff;
+                font-weight: 700;
+                text-align: right;
+                text-decoration: none;
+                cursor: pointer;
+                &:hover {
+                    color: $main-color;
+                }
+            }
+        }
+        &__btn {
+            margin-top: 28px;
+        }
+    }
+    .divi {
+        width: 1140px;
+        background-color: grey;
+    }
+}

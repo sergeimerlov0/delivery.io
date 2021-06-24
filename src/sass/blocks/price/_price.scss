@@ -71,6 +71,7 @@
         font-weight: 500;
         text-align: center;
     }
+    
     &__blocks {
         display: flex;
         justify-content: center;
@@ -117,6 +118,9 @@
         top: 166px;
         left: 50%;
         transform: translateX(-50%);
+        width: 200px;
+        text-align: center;
+        background: #ffffff;
         button{
             width: 180px;
             height: 45px;
