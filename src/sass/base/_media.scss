@@ -26,6 +26,11 @@
             }
         }
     }
+    .globalopt {
+        &__block {
+            grid-template-columns: 58px 350px 58px 350px;
+        }
+    }
     
     
 }
@@ -56,6 +61,13 @@
             .icon {
                 margin-top: 10px;
             }
+        }
+    }
+    .globalopt {
+        &__block {
+            grid-template-columns: 58px 280px 58px 280px;
+            column-gap: 20px;
+            row-gap: 25px;
         }
     }
 }
@@ -90,6 +102,7 @@
                 }
             
             }
+        
         }
         .heading {
             &__title {
@@ -141,6 +154,12 @@
                     transform: rotate(45deg);
                 }
             }
+        }
+    }
+    .globalopt {
+        &__block {
+            grid-template-columns: 58px 280px;
+            
         }
     }
 }
